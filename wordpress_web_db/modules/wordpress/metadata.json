@@ -1,0 +1,32 @@
+{
+  "name": "wordpress",
+  "version": "1.0.0",
+  "author": "ivoamorim",
+  "summary": "Installs, configures, and manages the WordPress.",
+  "license": "Apache-2.0",
+  "source": "https://foo.bar.com",
+  "project_page": "ttps://foo.bar.com",
+  "issues_url": "ttps://foo.bar.com",
+  "dependencies": [
+    {
+      "name": "puppetlabs/inifile",
+      "version_requirement": ">= 2.0.0 < 3.0.0"
+    }
+  ],
+  "data_provider": "hiera",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.5.0 < 5.0.0"
+    }
+  ],
+  "description": "Example WordPress Module."
+}

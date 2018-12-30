@@ -1,0 +1,3 @@
+172.18.0.11 puppet puppet.home
+172.18.0.12 web web.home
+172.18.0.13 db db.home
